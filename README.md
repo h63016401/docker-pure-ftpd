@@ -3,7 +3,9 @@ docker快速建立FTP
 
 ## 簡易說明
 
-利用https://hub.docker.com/r/stilliard/pure-ftpd/所提供的imges快速建立FTP可以限制只能取用那些資料夾
+利用https://hub.docker.com/r/stilliard/pure-ftpd/
+
+所提供的imges快速建立FTP可以限制只能取用那些資料夾
 
 ## 使用方法:
 
