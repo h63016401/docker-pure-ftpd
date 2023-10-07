@@ -1,11 +1,11 @@
 # docker-pure-ftpd
 docker快速建立FTP
 
-##簡易說明
+## 簡易說明
 
 利用https://hub.docker.com/r/stilliard/pure-ftpd/所提供的imges快速建立FTP可以限制只能取用那些資料夾
 
-##使用方法:
+## 使用方法:
 
     git clone https://github.com/h63016401/docker-pure-ftpd.git
 
@@ -30,7 +30,7 @@ docker快速建立FTP
 以上範例的使用者為:kawsing
 連接到的預設目錄為:/home/ftpusers/kawsing
 
-##使用 filezilla 測試
+## 使用 filezilla 測試
 
 ![Alt text](test.png)
 
