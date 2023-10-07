@@ -32,6 +32,10 @@ docker快速建立FTP
 以上範例的使用者為:kawsing
 連接到的預設目錄為:/home/ftpusers/kawsing
 
+## 最大客戶數
+
+預設情況下，一次設定 5 個最大客戶端，但可以透過使用以下環境的數量來增加此設置，例如，然後還增加從開放的公共連接埠的數量。還需要在執行FTP_MAX_CLIENTSdocker FTP_MAX_CLIENTS=50runFTP_PASSIVE_PORTS=30000:30009 FTP_PASSIVE_PORTS=30000:30099時開啟這些連接埠。此外，可以透過設定環境變數來指定每個ip的最大連線數FTP_MAX_CONNECTIONS。預設值為5。
+
 ## 使用 filezilla 測試
 
 ![Alt text](test.png)
